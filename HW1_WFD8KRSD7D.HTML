@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .Container{
+            margin-top: 50px;
+            width: 100px;
+            padding-right: 600px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            height: 410px;
+            background-color: rgb(231, 231, 231);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+            margin-left: 300px ;
+        }
+        h1{
+            color: rgb(22, 22, 90);
+            display: flex;
+            text-justify: inherit;
+            margin-left: 550px;
+        }
+        
+        input{
+            box-shadow: 0px 0px 2px rgb(131, 168, 236);
+            width: 655px;
+            max-height: 50px;
+            border: 1px solid rgb(247, 246, 243);
+            outline-color: rgb(241, 235, 235);
+            border-radius: 3px;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        textarea{
+            width: 650px;
+            line-height: 20px;
+            border: 1px solid rgb(247, 246, 243);
+            border-radius: 3px;
+            max-height: 120px;
+            box-shadow: 0px 0px 2px cornflowerblue;
+            height: 600px;
+            margin-bottom: 15px;
+            margin-top: 9px;
+        }
+        select{
+            border-radius: 3px;
+            padding-right: 580px;
+            box-shadow: 0px 0px 2px cornflowerblue;
+            border: 1px solid rgb(247, 246, 243);
+            outline-color: rgb(241, 235, 235);
+            padding-bottom: 15px;
+            font-weight: bold;
+            padding-top: 3px;
+             margin-bottom: 10px;
+        }
+        .Country{
+            line-height: 26px;
+            margin-bottom: 0px; 
+        }
+        label{
+            font-size: smaller;
+            font-weight: bold;
+        }
+        .btn-green{
+            background-color: rgb(85, 156, 85);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 30px;
+            width: 70px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <div class="Container">
+        <form action="">
+            <div class="First Name">
+                <label for="First Name">First Name</label><br>
+                <input type="text" name="First Name" placeholder="Your name..">
+            </div>
+            <div class="Last name">
+                <label for="Last name">Last Name</label><br>
+            <input type="text" name="Last name" placeholder="Your last name..">
+        </div>
+        <div class="Country">
+            <label for="Country">Country</label><br>
+            <select name="Country">
+                <option value="Australia">Australia</option>
+                <option value="Benin">Benin</option>
+                <option value="Canada">Canada</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Finland">Finland</option>
+            </select>
+        </div>
+        <div>
+            <label for="Subject">Subject</label><br>
+            <textarea name="Subject" placeholder="Write something.."></textarea>
+        </div>
+        <div class="btn-green">
+        <button class="btn btn-green">Submit</button>
+    </div>
+        </form>
+    </div>
+</head>
+<body>
+    
+</body>
+</html>
